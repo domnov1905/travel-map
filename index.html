@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meine Weltkarte</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div><small>📍 MEINE REISEN</small><h1>Meine Weltkarte</h1><p>Markiere die Länder, die du besucht hast oder noch entdecken möchtest.</p></div><button id="reset">↻ Zurücksetzen</button></header>
+<main><section id="stats"></section><section class="card"><div class="toolbar"><div class="legend"><span><i class="visited"></i>Besucht</span><span><i class="planned"></i>Geplant</span><span><i class="wishlist"></i>Wunschliste</span><span><i class="none"></i>Nicht markiert</span></div><input id="search" placeholder="Land suchen …"></div><div id="map"><div class="loading">Weltkarte wird geladen …</div></div></section></main>
+<div id="modal" class="modal hidden"><div class="dialog"><small>Land markieren</small><h2 id="countryName"></h2><button data-status="visited">✓ Besucht</button><button data-status="planned">✈ Geplant</button><button data-status="wishlist">♡ Wunschliste</button><button id="remove" class="text">Markierung entfernen</button><button id="close" class="primary">Fertig</button></div></div>
+<footer>Version 1 · Markierungen werden lokal in diesem Browser gespeichert.</footer>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script><script src="app.js"></script></body></html>

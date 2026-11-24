@@ -1,3 +1,5 @@
-# Travel Map 1.1
+# Travel Map 2.0
 
-Alle Dateien in das Root-Verzeichnis deines GitHub-Repository hochladen und vorhandene Dateien ersetzen. Diese Version enthaelt die Kartendaten lokal in `countries.js` und benoetigt fuer die Karte kein CDN.
+Alle Dateien in das Root-Verzeichnis des GitHub-Repository hochladen und vorhandene Dateien ersetzen. GitHub Pages bleibt auf `main` und `/ (root)`.
+
+Enthalten: lokales Kartenmaterial, Zoom, deutsche Suche, Hauptstaedte mit Mouse-over, Listen nach Kontinenten und lokale Browser-Speicherung.
